@@ -1,0 +1,20 @@
+<model-viewer src="fery glb.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" camera-orbit="13.42deg 65.92deg 1.299m" field-of-view="30deg">
+    <button class="Hotspot" slot="hotspot-1" data-position="0.1630947822442882m 0.23740594721639915m 0.02095940476630747m" data-normal="0.2169305209051924m 0.9761870461647204m -1.1503901783125442e-17m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">House</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-0.007373759268866761m 0.41298958526652196m -0.1491165098865285m" data-normal="-0.9828585613898225m 0.17708233643438454m 0.051292245278091286m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">spin</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="0.14266564078517832m 0.0015635140880139176m 0.08736550000000026m" data-normal="0m -4.440892098500626e-16m 1m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">base</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="0.0554553616880889m 0.09903516239162946m 0.07769494209878951m" data-normal="-0.9529257806628151m -0.30320365523549436m -1.346494716771815e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">stand</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
